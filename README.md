@@ -4,6 +4,8 @@ A lightweight Windows desktop stock price floating widget for personal investmen
 
 Stock Floating Widget displays a compact, always-on-top view of a selected A-share stock. It is designed to stay unobtrusive while you work and provide quick access to the latest price and percentage change.
 
+![Stock Floating Widget product overview](assets/screenshots/product-overview.png)
+
 ## Features
 
 - Displays the stock name, current price, and percentage change.
@@ -69,6 +71,9 @@ This file stores the selected stock, refresh interval, window position, font siz
 Stock-Floating-Widget/
 ├── assets/
 │   └── screenshots/
+│       ├── floating-widget.png
+│       ├── product-overview.png
+│       └── stock-picker.png
 ├── config/
 │   ├── __init__.py
 │   └── settings.py
@@ -88,15 +93,21 @@ Stock-Floating-Widget/
 └── requirements.txt
 ```
 
-## Screenshot
+## Screenshots
 
-Project screenshots belong in [`assets/screenshots/`](assets/screenshots/). A recommended filename for the main screenshot is `stock-floating-widget.png`.
+### Floating Quote Widget
 
-After adding the image, it can be embedded here with:
+The compact floating view shows the selected stock name, current price, and percentage change while staying out of the way of other applications.
 
-```markdown
-![Stock Floating Widget](assets/screenshots/stock-floating-widget.png)
-```
+<img src="assets/screenshots/floating-widget.png" alt="Stock Floating Widget showing a live quote" width="440">
+
+### Stock Search
+
+Search for an A-share stock by name, pinyin, or stock code and select it from the result list.
+
+<img src="assets/screenshots/stock-picker.png" alt="Stock search dialog" width="300">
+
+Market values shown in the screenshots are capture-time examples and may differ from current quotes.
 
 ## Notes
 
